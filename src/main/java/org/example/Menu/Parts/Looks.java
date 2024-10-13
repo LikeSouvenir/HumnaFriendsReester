@@ -46,7 +46,7 @@ public class Looks extends BaseMenuParagraph{
                 if (animal.getValue().getID() == id)
                     return animal.getValue().toString() + "\n";
         }
-        else return null;
+        return null;
     }
 
     public String getHumanID(int id) {
